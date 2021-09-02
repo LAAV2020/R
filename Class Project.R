@@ -119,7 +119,7 @@ histlong <- hist(housing$median_house_value, freq = TRUE, col="blue")
 
 histlong
 
-#this is correct(below)
+
 #change name of housing data frame to housing_repaired
 housing_repaired <- housing
 #impute median to all columns
