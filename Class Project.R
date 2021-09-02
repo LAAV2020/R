@@ -86,10 +86,6 @@ summary(housing)
  #Max.   :500001    
 
 
-# Use iris data sent, draw vis, and store object
-histObj_freq <- hist(iris$Sepal.Length, freq=TRUE, col="blue")
-class(histObj_freq)
-#[1] "histogram"
 
 #Create Histogram for Longitude
 histlong <- hist(housing$longitude, freq = TRUE, col="blue")
